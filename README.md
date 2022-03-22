@@ -34,3 +34,13 @@ TypeScript is a superset of JavaScript which gives you static types and powerful
 ## 📝 Notes
 
 - [Expo TypeScript guide](https://docs.expo.dev/versions/latest/guides/typescript/)
+
+###### ICYF
+
+removed this from package.json because idgaf rn
+
+"hooks": {
+"prepare-commit-msg": "exec < /dev/tty && git cz --hook",
+"pre-commit": "lint-staged && tsc --no-verify",
+"pre-push": "test"
+}

@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "snap-dapp",
+    "slug": "snap-dapp",
+    "version": "1.0.0",
+    "sdkVersion": "44.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.deecat10.snap-dapp"
+    },
+    "android": {
+      "package": "com.deecat10.snapdapp"
+    },
+    "icon": "./assets/image/app-icon.png"
+  }
+}
